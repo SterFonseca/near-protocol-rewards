@@ -31,14 +31,16 @@ Protocol Rewards uses a scoring system that evaluates development activity acros
 
 ## Scoring Components
 
-The total score (0-100) is calculated from four main components:
+The total score (0-100) is calculated from four main component
+
+0-50 (50%) Off chain Contributions:
 
 | Component     | Weight | Description                   | Max Points |
 |--------------|--------|-------------------------------|------------|
-| Commits      | 35%    | Code contributions           | 35        |
-| Pull Requests| 25%    | Code review and integration  | 25        |
-| Reviews      | 20%    | Community participation      | 20        |
-| Issues       | 20%    | Project management          | 20        |
+| Commits      | 35%    | Code contributions           | 17.7        |
+| Pull Requests| 25%    | Code review and integration  | 12.5        |
+| Reviews      | 20%    | Community participation      | 10        |
+| Issues       | 20%    | Project management          | 10        |
 
 ### Thresholds for Maximum Points
 
@@ -48,6 +50,24 @@ To achieve maximum points in each category:
 - **Pull Requests**: 20 merged PRs
 - **Reviews**: 30 substantive reviews
 - **Issues**: 30 closed issues
+
+0-50 (50%) ON chain Contributions:
+
+| Component            | Weight | Description                   | Max Points |
+|----------------------|--------|-------------------------------|------------|
+| Transaction volume   | 40%    | Volume of Transactions        | 20        |
+| Smart Contracts Interaction | 40%    | Number of unique interactions with deployed contracts  | 20        |
+| Unique Wallet Interaction      | 20%    | wallets interacting with a deployed contract      | 10       |
+
+
+### Thresholds for Maximum Points
+
+To achieve maximum points in each category:
+
+- **Transaction Volume:**: $10,000+ in total transactions
+- **Smart Contract Interactions**: 500+ interactions
+- **Unique Wallet Interactions**: 100+ unique wallets
+
 
 ## Anti-Gaming Measures
 
