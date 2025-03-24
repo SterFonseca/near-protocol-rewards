@@ -1,4 +1,4 @@
-# NEAR Protocol Rewards Structure (Cohort 1)
+# NEAR Protocol Rewards Structure
 
 > A transparent, merit-based rewards system that incentivizes sustainable development practices.
 
