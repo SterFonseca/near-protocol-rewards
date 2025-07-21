@@ -111,6 +111,10 @@ Calculates monetary reward based on score."""
     else:
         return 0      # No tier: $0
 ```
+
+Milestones are required to unlock rewards!
+Each week, projects must submit the pre-defined deliverables set at the start of the tracking period.
+
 ## Validators
 
 All collected data passes through a robust quality validation system before being processed. Both off-chain metrics (GitHub) and on-chain metrics (blockchain) undergo rigorous validations that ensure data integrity, accuracy, and authenticity. These validators verify everything from blockchain transaction validity to the quality of GitHub contributions, ensuring that only reliable data is used in reward calculations.
