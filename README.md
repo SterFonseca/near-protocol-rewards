@@ -33,7 +33,7 @@ Protocol Rewards provides:
 
 By automating the entire process from tracking to distribution, we enable developers to focus on what they do best - building innovative solutions on NEAR.
 
-### Calendar for Cohort's
+### Calendar for Q3 Cohort:
 
 | Cohort 2 | Date |
 |----------|------|
